@@ -1,0 +1,3 @@
+id: root
+pw:2pblv5xzwlIGe0ZU
+clustername: studetninfo
