@@ -5,7 +5,8 @@ const portNumber = process.env.PORT || 5000;
 
 const mongodb = require("mongodb");
 const { request, response } = require("express");
-const connStringURL = "mongodb+srv://root:2pblv5xzwlIGe0ZU@sudentinfo.0ln56.mongodb.net/";
+const connStringURL = "mongodb+srv://root:password@dbname.0ln56.mongodb.net/";
+//connection string url has changed for security reasons
 const mongodbClient = mongodb.MongoClient;
 
 app.listen(portNumber, ()=>{
